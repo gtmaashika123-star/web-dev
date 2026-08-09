@@ -1,3 +1,9 @@
+/*CSS RESET*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 footer {
     background-color: beige;
@@ -5,31 +11,28 @@ footer {
     color: grey;
 
 }
+
 .google {
     padding: 12px 24px;
-     background-color: green;
-  margin-top: 32px;
-  display: inline-block;
-
-
+    background-color: green;
+    margin-top: 32px;
+    display: inline-block;
 }
 
 .facebook {
     padding: 8px 16px;
-     background-color: pink;
-      
-      display: inline-block;
-} 
-/*CSS RESET*/
-*{ 
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.box-1 {
-    background: blue;
-    width: 49%
-    height: 200px;
-    
+    background-color: rgb(220, 180, 187);
+    display: inline-block;
 }
 
+
+.box-1 {
+    background: blue;
+    width: 49%;
+    height: 200px;
+
+}
+
+.container {
+    width:
+}
