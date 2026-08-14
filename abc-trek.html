@@ -1,28 +1,63 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ABC Trek</title>
-    <link rel="stylesheet" href="./css./style.css">
-</head>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
 
-<body>
+      .title {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        color: #333;
+        text-align: center;
+      }
 
-    <h1>ABC Trek</h1>
+      .trek-image {
+        max-width: 80%;
+        height: auto;
+        border-radius: 8px;
+        object-fit: contain;
+        margin-bottom: 30px;
+      }
 
-    <img src="images/trek.png" alt="ABC Trek" width="500">
-    <p>
-        The Annapurna Base Camp (ABC) Trek is one of the most popular and
-        scenic trekking routes in Nepal. The trek takes visitors through
-        beautiful forests, terraced fields, traditional Gurung and Magar
-        villages, and stunning Himalayan landscapes. The journey leads to
-        Annapurna Base Camp, which is located at an altitude of 4,130 meters.
-        Trekkers can enjoy spectacular views of the Annapurna mountain range,
-        Machhapuchhre (Fishtail), Dhaulagiri, and other Himalayan peaks.
-        The trek also provides an opportunity to experience Nepal's natural
-        beauty, mountain culture, and local lifestyle.
+      .description {
+        max-width: 600px;
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #555;
+        padding: 0 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">ABC Trek</h1>
+
+    <img
+      class="trek-image"
+      src="images/abc-trek.jpg"
+      alt="ABC Trek Mountain View"
+    />
+
+    <p class="description">
+      The Annapurna Base Camp trek in Nepal has a unique charm that will surely leave you spellbound. 
+      Only a few treks can match the magical experience of bringing you so close to towering 7,000 and 8,000-meter
+      peaks in such a short time. This trek is one of the most popular in the Annapurna region, 
+      offering breathtaking scenery throughout the journey. The trail takes you through picturesque rice paddies, vibrant 
+      rhododendron forests, and stunning high-altitude landscapes, with the majestic Annapurna Range in view during most of your
+      journey.
     </p>
-
-</body>
-
+  </body>
 </html>
